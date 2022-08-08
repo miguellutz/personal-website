@@ -1,0 +1,10 @@
+img {
+  width: 30%;
+  height: 60%;
+}
+
+body {
+  color: white;
+  background-color: black;
+  display: inline;
+}
