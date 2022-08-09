@@ -1,0 +1,13 @@
+#services {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 15px;
+}
