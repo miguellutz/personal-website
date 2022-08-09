@@ -2,9 +2,10 @@
 @import url("components/landing.css");
 @import url("components/services.css");
 @import url("components/button.css");
+@import url("components/projects.css");
 
 html, body {
-  height: 100%;
+  height: 100vh;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 }
 
 .content-box {
-  margin: 5vh 0;
+  margin: 8vw;
 }
 
 img {
@@ -23,7 +24,7 @@ img {
 .separation-line {
   width: 100%;
   height: 2px;
-  background-color: rgb(69, 69, 69);
+  background-color: rgb(115, 115, 115);
 }
 
 body {
@@ -33,14 +34,22 @@ body {
   margin: 0px;
 }
 
-h2, h3 {
-  font-family: 'Inter', sans-serif;
+h2 {
+  font-size: 7vw;
 }
 
+h3 {
+  font-size: 4vw;
+}
+/*
 main {
   margin: 0px 2em;
-}
+} */
 
 footer {
   padding: 2em;
+}
+
+iframe {
+  height: 500px;
 }
