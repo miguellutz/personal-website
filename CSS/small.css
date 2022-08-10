@@ -2,7 +2,6 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-
 /* For Safari and MS browsers to not change text width when flipping phone */
 
 * {
@@ -10,6 +9,50 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 /* to equalize box model sizing for all web browsers - padding added to inside, margin outside */
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px; /* standard but as a reminder */
+}
+
+
+/* grid rules */
+.row {
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+
+footer {
+  background-color: rgb(33, 33, 33);
+  padding: 5vw 10vw;
+}
+
+footer h2 {
+  margin: .5rem 0;
+  font-size: 1.5rem
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.enablefloat:after {
+  content: "";
+  display: table;
+  clear: both;
+} /* insert content after floated items to prevent footer from collapsing */
+
+/* .enablefloat::after {
+  overflow: auto;
+} */

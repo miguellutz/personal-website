@@ -4,26 +4,19 @@
   align-items: center;
 }
 
+.landing-img {
+  width: 50%;
+}
+
 #landing-img {
   width: 100%;
-  height: 100%;
-  transition: all .4s ease-in-out;
+  height: 80%;
 }
 
-#landing-img img:hover {
-  transform: scale(1.1);
+.landing-img {
+  transition: all .3s ease-in-out;
 }
 
-#landing-img img {
-  width: 100%;
-  height: 100%
-}
-
-#landing h1 {
-  font-size: 2.5vh;
-  margin: 2vh 0px;
-}
-
-#landing p {
-  font-size: 2vh;
+.landing-img:hover {
+  transform: scale(1.2);
 }

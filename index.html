@@ -5,16 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="CSS/normalize.css">
   <link rel="stylesheet" href="CSS/small.css">
   <link rel="stylesheet" href="CSS/medium.css">
   <link rel="stylesheet" href="CSS/large.css">
-  <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
   <title>Miguel Lutz | Web Developer</title>
 </head>
 <body>
@@ -30,7 +29,6 @@
   </header>
   <div class="separation-line"></div>
   <main>
-    <h1>Hello World</h1>
     <div class="content-box">
       <div id="landing">
         <div id="landing-content">
@@ -38,7 +36,7 @@
           <p>Professional Web Developer</p>
           <button>Request Now</button>
         </div>
-        <div id="landing-img">
+        <div class="landing-img">
           <img src="images/landing.jpeg" alt="Laptop" id="landing-img">
         </div>
       </div>
@@ -76,7 +74,6 @@
     <div class="content-box">
       <div id="curriculum">
         <h2>CV</h2>
-        <iframe src="./CV_Tech_Frontend_compressed copy.pdf" frameborder="0"></iframe>
       </div>
     </div>
     <div class="content-box">
@@ -84,15 +81,28 @@
     </div>
   </main>
   <div class="separation-line"></div>
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="">Services</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Curriculum</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
+  <footer class="enablefloat">
+    <div class="row">
+      <section class="column small-12 medium-6 large-3">
+        <h2>Location</h2>
+        <p>Im Mediapark, 5</p>
+      </section>
+      <section class="column small-12 medium-6 large-3">
+        <h2>Socials</h2>
+        <ul>
+          <li>LinkedIn</li>
+          <li>FaceBook</li>
+          <li>Instagram</li>
+        </ul>
+      </section>
+      <section class="column small-12 medium-6 large-3">
+        <h2>Data</h2>
+        <ul>
+          <li>Impressum</li>
+          <li>Datenschutz</li>
+        </ul>
+      </section>
+    </div><!== end of the row -->
   </footer>
 </body>
 </html>
