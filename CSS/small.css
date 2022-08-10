@@ -1,0 +1,15 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* For Safari and MS browsers to not change text width when flipping phone */
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* to equalize box model sizing for all web browsers - padding added to inside, margin outside */
+
