@@ -1,7 +1,8 @@
 header {
   display: flex;
   align-items: center;
-  padding: 4vw 6vw;
+  padding: 4vw 8vw;
+
 }
 
 header img {

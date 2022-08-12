@@ -8,7 +8,15 @@
     flex-direction: row;
   }
 
+  main {
+    margin: 35px 9vw;
+  }
+
+  header {
+    padding: 35px 9vw;
+  }
+
   nav a {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 } /* end of media query */

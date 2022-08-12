@@ -3,4 +3,22 @@
   .large-3 {
     width: 33%;
   }
+
+  nav a {
+    font-size: 2rem;
+  }
+
+  #landing-content h1 {
+    font-size: 52px;
+  }
+
+  #landing-content p {
+    font-size: 32px;
+  }
+
+  #landing-content button {
+    font-size: 22px;
+    height: 52px;
+    margin-top: 10px;
+  }
 } /* end of media query */
