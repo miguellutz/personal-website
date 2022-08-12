@@ -4,8 +4,12 @@
     width: 33%;
   }
 
-  #services {
+  #service-box {
     flex-direction: row;
+  }
+
+  .card {
+    width: 30%;
   }
 
   main {
