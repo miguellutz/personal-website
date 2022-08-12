@@ -1,22 +1,40 @@
-nav {
-  display: block;
-}
-
-nav > ul {
-  display: inline;
-  margin: 0px 2em 0px 0px;
-  padding: 0px;
-}
-
-nav > ul > li {
-  display: inline-block;
-  font-size: larger;
-  font-weight: 300;
-  margin-right: 20px;
-}
-
 nav a,
 nav a:visited {
   color: white;
   text-decoration: none;
+}
+
+nav > ul {
+  margin: 0px 2em 0px 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: larger;
+  margin-right: 5vw;
+}
+
+nav a {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+nav a:after {
+  content:'';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+nav a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

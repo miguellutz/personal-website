@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 4vw 6vw;
+}
+
+header img {
+  height: 80px;
+  width: 80px;
+}
