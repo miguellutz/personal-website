@@ -1,15 +1,7 @@
 @media only screen and (min-width: 1024px) {
 
-  h2 {
-    font-size: 40px;
-  }
-
   .large-3 {
     width: 33%;
-  }
-
-  nav a {
-    font-size: 2rem;
   }
 
   #landing-content h1 {

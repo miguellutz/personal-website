@@ -1,5 +1,13 @@
 @media only screen and (min-width: 768px) {
 
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
   .medium-6 {
     width: 33%;
   }
@@ -8,8 +16,17 @@
     flex-direction: row;
   }
 
+  #projects {
+    flex-direction: row;
+  }
+
   .card {
     width: 30%;
+    margin-bottom: 0;
+  }
+
+  #projects .card {
+    width: 45%;
   }
 
   main {

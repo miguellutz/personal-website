@@ -11,9 +11,7 @@
 }
 
 #landing-content h1 {
-  font-size: 5vw;
   margin: 2.5vw 0;
-  font-weight: 500;
 }
 
 #landing-content p {
@@ -23,8 +21,8 @@
 }
 
 #landing-content button {
-  width: 50%;
-  height: 5vw;
+  width: 70%;
+  height: 6vw;
   margin-top: 1vw;
   font-size: 2vw;
 }
