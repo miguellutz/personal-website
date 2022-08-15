@@ -18,15 +18,16 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#services">Services</a></li>
+    <nav class="enablefloat">
+      <button id="hamburgerBtn">&#9776;</button>
+      <ul id="primaryNav">
+        <li class="active"><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#curriculum">Curriculum</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <img src="images/Klikmeet Logo 3.png" alt="Klikmeet Logo">
+    <!-- <img src="images/Klikmeet Logo 3.png" alt="Klikmeet Logo"> -->
   </header>
   <div class="separation-line"></div>
   <main>
@@ -35,7 +36,9 @@
         <div id="landing-content">
           <h1>Miguel Lutz</h1>
           <p>Professional Web Developer</p>
-          <button>Contact</button>
+          <button>
+            <a href="mailto:miguellutz31@gmail.com?subject=Web%20Dev%20Inquiry">Contact</a>
+          </button>
         </div>
         <div class="landing-img">
           <img src="images/landing.jpg" alt="Laptop" id="landing-img">
@@ -66,7 +69,9 @@
       <div id="projects">
         <div class="card">
           <img src="images/rheingassi.png" alt="Rheingassi">
-          <a href="https://www.rheingassi.com/" target="_blank">Rheingassi</a>
+          <div class="card-content">
+            <a href="https://www.rheingassi.com/" target="_blank">Rheingassi</a>
+          </div>
         </div>
         <div class="card">
           <img src="images/klikmeet.png" alt="klikmeet">
@@ -84,7 +89,7 @@
     </div>
   </main>
   <div class="separation-line"></div>
-  <footer class="enablefloat">
+  <footer class="enablefloat" >
     <div class="row">
       <section class="column small-12 medium-6 large-3">
         <h2>Location</h2>
@@ -107,5 +112,6 @@
       </section>
     </div><!== end of the row -->
   </footer>
+  <script src="js/menuToggle.js"></script>
 </body>
 </html>

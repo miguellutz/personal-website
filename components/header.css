@@ -1,11 +1,16 @@
 header {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
   padding: 4vw 8vw;
 }
 
-header img {
+/* header img {
   height: 80px;
   width: 80px;
+  transition: all .3s ease-in-out;
 }
+
+header img:hover {
+  transform: scale(1.2);
+} */

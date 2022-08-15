@@ -1,16 +1,23 @@
-nav > ul {
-  margin: 0px 2em 0px 0px;
+nav ul {
   padding: 0px;
+  display: none;
+}
+
+nav ul.open {
+  display:block;
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 5vw;
+  list-style-type: none;
+  padding: 15px;
+  width: auto;
+}
+
+nav li:hover {
+  background-color: rgb(87, 87, 87);
 }
 
 nav a {
-  display: inline-block;
-  position: relative;
   color: white;
   font-size: 1.2rem;
 }

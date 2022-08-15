@@ -1,7 +1,19 @@
 @media only screen and (min-width: 768px) {
 
+  main {
+    margin: 35px 9vw;
+  }
+
+  header {
+    padding: 35px 9vw;
+  }
+
+  nav a {
+    font-size: 1.4rem;
+  }
+
   h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   h2 {
@@ -29,15 +41,15 @@
     width: 45%;
   }
 
-  main {
-    margin: 35px 9vw;
+  nav button {
+    display: none;
   }
 
-  header {
-    padding: 35px 9vw;
+  nav li {
+    float: left;
   }
 
-  nav a {
-    font-size: 1.4rem;
+  nav ul {
+    display: inline;
   }
 } /* end of media query */
