@@ -22,6 +22,10 @@ html {
 }
 /* to equalize box model sizing for all web browsers - padding added to inside, margin outside */
 
+:root {
+  --signature-color: rgb(113, 0, 138);
+} /* reusable colors using custom css property accessed with var(--custom-property) */
+
 body {
   height: 100vh;
   margin: 0px;
