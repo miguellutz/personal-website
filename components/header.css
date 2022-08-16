@@ -8,4 +8,9 @@ header {
 header img {
   height: 80px;
   width: 80px;
+  transition: all .3s ease-in-out;
+}
+
+header img:hover {
+  transform: scale(1.1);
 }

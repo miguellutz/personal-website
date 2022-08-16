@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
 
   h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   h2 {
@@ -10,6 +10,14 @@
 
   .medium-6 {
     width: 33%;
+  }
+
+  #landing-content h1 {
+    margin: 20px 0;
+  }
+
+  #landing-content p {
+    margin-bottom: 20px;
   }
 
   #service-box {
@@ -22,11 +30,12 @@
 
   .card {
     width: 30%;
+    height: 30vh;
     margin-bottom: 0;
   }
 
   #projects .card {
-    width: 45%;
+    width: 47.5%;
   }
 
   main {
@@ -35,6 +44,14 @@
 
   header {
     padding: 35px 9vw;
+  }
+
+  .content-box {
+    margin-bottom: 70px;
+  }
+
+  .content-box h1 {
+    margin-bottom: 70px;
   }
 
   nav a {
