@@ -9,7 +9,7 @@
   }
 
   .medium-6 {
-    width: 33%;
+    flex-basis: 33%;
   }
 
   #landing-content h1 {
@@ -56,5 +56,9 @@
 
   nav a {
     font-size: 1.4rem;
+  }
+
+  .footer {
+    padding: 35px 9vw;
   }
 } /* end of media query */

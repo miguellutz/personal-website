@@ -1,9 +1,5 @@
 @media only screen and (min-width: 1024px) {
 
-  .large-3 {
-    width: 33%;
-  }
-
   #landing-content h1 {
     font-size: 52px;
   }

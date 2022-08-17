@@ -1,20 +1,23 @@
 /* grid rules */
 .row {
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.column {
-  float: left;
-}
+/* .column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+} */
 
 .small-12 {
-  width: 100%;
+  flex-basis: 100%;
 }
-
 
 footer {
   background-color: rgb(33, 33, 33);
-  padding: 5vw 10vw;
+  padding: 4vw 8vw;
 }
 
 footer h2 {
@@ -27,11 +30,11 @@ footer ul {
   list-style: none;
 }
 
-.enablefloat:after {
+/* .enablefloat:after {
   content: "";
   display: table;
   clear: both;
-} /* insert content after floated items to prevent footer from collapsing */
+} insert content after floated items to prevent footer from collapsing */
 
 /* .enablefloat::after {
   overflow: auto;
